@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    display: flex;
+    background-image: url();
+}
+h1{
+    font-size: 40px;
+}
+h1 span{
+    color: orange;
+}
+p{
+    color: #969494;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+}
+.half-width img{
+    width: 100%;
+}
