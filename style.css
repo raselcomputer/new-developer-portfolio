@@ -8,6 +8,7 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-position: left;
 }
 h1{
     font-size: 50px;
@@ -17,15 +18,16 @@ h1 span{
 }
 p{
     color: #969494;
+    text-align: justify;
 }
 .half-width{
     width: 50%;
     padding: 0 5%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
-.half-width a{
+.half-width .link-button{
     text-decoration: none;
     background-image: linear-gradient(tomato, orange);
     padding: 10px 20px;
@@ -33,4 +35,12 @@ p{
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
+}
+.dream-big-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#dream-big-text{
+    padding-right: 10%;
 }
